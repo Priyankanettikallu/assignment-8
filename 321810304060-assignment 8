@@ -1,0 +1,37 @@
+In [6]:
+def new(a,b):
+    a,b=b,a
+    print(a,b)
+new("abc","xyz")
+xyz abc
+In [9]:
+def new1(a):
+    print(a,"\n")
+    print(a.rstrip())
+new1("newline example")
+newline example 
+
+newline example
+In [65]:
+n=input("Enter your word :")
+index=0
+while index<len(n):
+    letter=x[index]
+    print(index," : ",letter)
+    index=index+1
+Enter your word :priyanka
+0  :  p
+1  :  r
+2  :  i
+3  :  y
+4  :  a
+5  :  n
+6  :  k
+7  :  a
+In [68]:
+x="Enter your word"
+print(x.replace("E",""))
+nter your word
+In [ ]:
+
+In [ ]:
